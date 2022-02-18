@@ -13,7 +13,7 @@ namespace _2048WindowsFormsApp
         private static Random random = new Random();
         private int bestScore;
         private List<int> labelsNumber=new List<int>();
-        private readonly User user = new User();
+        private User user = new User();
         public MainForm()
         {
             InitializeComponent();
